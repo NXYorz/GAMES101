@@ -23,7 +23,7 @@ static bool insideTriangle(int x, int y, const Vector3f* _v)
 }
 ```
 
-### $\texttt{rasterize-triangle(const Triangle\& t)}$ 实现
+### $\texttt{rasterize-triangle}$ 实现
 
 执行三角形栅格化算法，首先判断 $\texttt{bounding box}$ 的边界，通过注释里给的求解插值深度值，与深度缓冲区中的相应值比较，如果当前节点更靠近相机，更近缓冲区与颜色。
 
